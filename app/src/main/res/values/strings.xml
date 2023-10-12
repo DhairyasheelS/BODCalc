@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- profile_page[refresh_always] strings -->
+
+	<string name="app_name">Age Calculator</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="calculate_your_string">Calculate Your </string>
+	<string name="age_string">AGE</string>
+	<string name="age_in_minutes_string">AGE IN MINUTES</string>
+	<string name="selected_date_string">SELECTED DATE</string>
+	<string name="in_minutes_string">IN MINUTES</string>
+	<string name="_05_01_2004_string">05.01.2004</string>
+	<string name="select_date_string">Select Date</string>
+	<string name="_1400000_string">1400000</string>
+</resources>

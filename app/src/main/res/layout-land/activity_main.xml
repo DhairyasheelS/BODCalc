@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CALCULATE YOUR"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="AGE"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        android:background="@color/textBlue"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="IN MINUTES"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/textBlue"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT DATE"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#2a9d8f"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="05.01.2004"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selected Date"
+        android:textStyle="bold"
+        android:textColor="#696992"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="1400000"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="In Minutes"
+        android:textStyle="bold"
+        android:textColor="#696992"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

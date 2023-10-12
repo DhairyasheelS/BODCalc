@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Logo or Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Text: Calculate your Age -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate your Age"
+        android:padding="30dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button: Calculate -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/textBlue"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+    <!-- Result Text -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age in minutes: "
+        android:textSize="18sp"
+        android:padding="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
