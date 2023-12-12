@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         val btnDatePicker :Button = findViewById(R.id.btnDatePicker)
 
         // textView objects
@@ -77,9 +76,9 @@ class MainActivity : AppCompatActivity() {
             year,
             month,
             day
-            )
-            dpd.datePicker.maxDate = System.currentTimeMillis() - 86400000
-            dpd.show()
+        )
+        dpd.datePicker.maxDate = System.currentTimeMillis() - 86400000
+        dpd.show()
 
     }
 
